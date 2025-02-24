@@ -523,7 +523,8 @@ namespace Bankomat
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Telefon raqam noto'g'ri formatda!"); 
+                                    Console.WriteLine("Telefon raqam noto'g'ri formatda!");
+                                    Console.WriteLine("Chopildiz !!!");
                                 }
                                 break;
 
@@ -544,5 +545,7 @@ namespace Bankomat
             
 
        }
+        
     }
 }
+

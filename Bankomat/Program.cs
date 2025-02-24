@@ -380,9 +380,9 @@ namespace Bankomat
                                         Console.Clear();
                                         Console.WriteLine("Pulni olishingiz mumkin!");
                                         Console.WriteLine("Kartadagi qoldiq summa-> {0}", kmablag - 100000);
-                                        Console.WriteLine("Boshqa amal bajarasizmi?");
+                                        Console.WriteLine("Boshqa amal bajarasizmi");
                                         Console.WriteLine("1. Ha");
-                                        Console.WriteLine("2. Yo'q");
+                                   
                                         int amal2 = int.Parse(Console.ReadLine());
                                         if (amal2 == 1)
                                         {

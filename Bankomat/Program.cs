@@ -57,7 +57,7 @@ namespace Bankomat
                             case 1:
                                 Console.Clear();
                                 Console.Write($"Sizning balansingiz-> {kmablag}");
-                                Console.WriteLine("Boshqa amal bajarasizmi?");
+                                Console.WriteLine("Boshqa amal bajarasizmi");
                                 Console.WriteLine("1. Ha");
                                 Console.WriteLine("2. Yo'q");
                                 int amal = int.Parse(Console.ReadLine());
